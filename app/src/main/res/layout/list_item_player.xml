@@ -18,14 +18,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+            <com.example.nbalibrary.ui.views.Headshot
+                android:id="@+id/headshot"
+                android:layout_width="85dp"
+                android:layout_height="104dp"
+                android:contentDescription="Headshot"
+                android:layout_marginLeft="@dimen/double_spacing"
+                android:layout_marginBottom="@dimen/double_spacing"
+                app:imageFromUrl="@{player.smallHeadshotUrl}"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/tv_first_name"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/tv_first_name" />
             <TextView
                 android:id="@+id/tv_first_name"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/double_spacing"
                 android:text="@{player.firstName}"
                 tools:text="FIRST"
                 android:paddingLeft="@dimen/double_spacing"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintStart_toEndOf="@id/headshot"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"

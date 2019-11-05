@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "678049224476",
+    "firebase_url": "https://nba-library.firebaseio.com",
+    "project_id": "nba-library",
+    "storage_bucket": "nba-library.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678049224476:android:a19ca76641db9ac31f0cd9",
+        "android_client_info": {
+          "package_name": "com.example.nbalibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678049224476-u82ql41f5itr42vu53l005m3g7igkbu0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nbalibrary",
+            "certificate_hash": "7b4224c09c7c8537acc6b9f0fbfda59477d32f93"
+          }
+        },
+        {
+          "client_id": "678049224476-sbvl8qbh0spj44aj2cert5k1ivifm9nt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIdAoLg6lqy3VhSU4dN_cbUOO8-S_nJHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678049224476-sbvl8qbh0spj44aj2cert5k1ivifm9nt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

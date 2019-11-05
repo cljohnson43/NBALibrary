@@ -1,4 +1,4 @@
-package com.example.nbalibrary.ui.views
+package com.example.nbalibrary.ui.controllers
 
 import android.os.Bundle
 import android.view.LayoutInflater

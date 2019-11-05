@@ -5,6 +5,6 @@
 
     <fragment
         android:id="@+id/playersFragment"
-        android:name="com.example.nbalibrary.ui.views.PlayersFragment"
+        android:name="com.example.nbalibrary.ui.controllers.PlayersFragment"
         android:label="PlayersFragment" />
 </navigation>

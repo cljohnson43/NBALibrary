@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+        <import type="android.graphics.Color"/>
         <variable
             name="player"
             type="com.example.nbalibrary.data.Player" />
@@ -18,6 +19,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+            <com.example.nbalibrary.ui.views.TeamBackdrop
+                android:id="@+id/team_backdrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:teamSecondaryColor="@color/teamSecondary"
+                app:teamPrimaryColor="@color/teamPrimary"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+
             <com.example.nbalibrary.ui.views.Headshot
                 android:id="@+id/headshot"
                 android:layout_width="85dp"
@@ -26,6 +39,7 @@
                 android:layout_marginLeft="@dimen/double_spacing"
                 android:layout_marginBottom="@dimen/double_spacing"
                 app:imageFromUrl="@{player.smallHeadshotUrl}"
+                app:strokeWidth="3dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@id/tv_first_name"
                 app:layout_constraintBottom_toBottomOf="parent"
